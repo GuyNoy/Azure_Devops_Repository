@@ -12,10 +12,4 @@ jobs:
           prisma_cloud_compute_url: https://europe-west3.cloud.twistlock.com/eu-1610258
           prisma_cloud_compute_username: bbd7ac3c-9002-47ac-bbd8-cc5ddebffb3c
           prisma_cloud_scan_image: nginx
-orbs:
-  pcs: prisma_cloud/devops_security@3.0.0
-version: 2.1
-workflows:
-  scan:
-    jobs:
-      - docker_safe_build
+
